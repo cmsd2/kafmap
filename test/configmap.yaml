@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-config
+  namespace: default
+data:
+  APPLICATION_ID: dp-test
+  INPUT_TOPIC: policy-abstract.registered.4
+  OUTPUT_TOPIC: policy-abstract.linked.3
